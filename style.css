@@ -22102,6 +22102,7 @@ td.actions {
   font-size: var(--cnvs-promo-span-font-size);
 }
 
+
 /*-----------------------------------------------------------------------------------
 
 	Shortcodes: feature-box.scss
@@ -22138,7 +22139,8 @@ td.actions {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--cnvs-featured-box-padding-x));
-  margin-right: calc(-1 * var(--cnvs-featured-box-padding-x));
+  margin-right: calc(-34 * var(--cnvs-featured-box-padding-x));
+  
 }
 .feature-box:first-child {
   margin-top: 0;
